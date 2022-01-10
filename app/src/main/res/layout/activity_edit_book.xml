@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditBookActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit_book_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/hint_book_title"
+        android:inputType="textAutoComplete"
+        android:padding="@dimen/small_padding"
+        android:layout_marginBottom="@dimen/bid_padding"
+        android:layout_marginTop="@dimen/bid_padding"
+        android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/edit_book_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/hint_book_author"
+        android:inputType="textAutoComplete"
+        android:padding="@dimen/small_padding"
+        android:layout_marginBottom="@dimen/bid_padding"
+        android:layout_marginTop="@dimen/bid_padding"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buttonSaveColor"
+        android:text="@string/button_save"/>
+</LinearLayout>
